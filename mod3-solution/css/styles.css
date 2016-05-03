@@ -1,0 +1,31 @@
+a {
+	text-decoration: none;}
+section {
+	height: 700px;
+	display: inline-block;
+	background-color: #d1e0e0;
+	margin: 10px;
+	padding: 10px;
+}
+#header-nav {
+	background-color: #005580;
+	border-radius: 0;
+	border: 2px solid black;
+
+}
+.navbar-brand h1 {
+	color: #b3e6ff;
+	margin: 20px;
+	font-size: 1.5em;
+	font-weight: bold;
+    text-shadow: 1px 1px 1px #181818;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list ul {
+	background-color: #5c5cd6
+}
