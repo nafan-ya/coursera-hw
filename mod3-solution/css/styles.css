@@ -1,11 +1,13 @@
 a {
 	text-decoration: none;}
 section {
-	height: 700px;
 	display: inline-block;
 	background-color: #d1e0e0;
-	margin: 10px;
 	padding: 10px;
+	margin: 10px;
+}
+.row div {
+	display: inline-block;
 }
 #header-nav {
 	background-color: #005580;
@@ -26,6 +28,32 @@ section {
 .navbar-brand a:hover, .navbar-brand a:focus {
     text-decoration: none;
 }
-#nav-list ul {
-	background-color: #5c5cd6
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #b3e6ff;
+}
+#nav-list li {
+	font-size: 1.5em;
+	font-color: #b3e6ff;
+}
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+}
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  
+  /* End Header */
 }
